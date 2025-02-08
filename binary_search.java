@@ -14,6 +14,6 @@ class binarysearch {
 }
 
 
-public class main{
+public class binary_search{
 
 }
