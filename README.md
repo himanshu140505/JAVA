@@ -1,0 +1,2 @@
+# JAVA
+ 🚀 JavaCircuit - Ultimate Java Repository ☕  Welcome to JavaCircuit, your all-in-one Java repo from basics to advanced!  🔥 What’s Inside? ✅ Core Java (OOP, Collections, Threads) 💡 ✅ Web Dev (Spring, Hibernate, Servlets) 🌐 ✅ Android (Java & Kotlin) 📱 ✅ DSA, AI, ML & Automation 🤖 ✅ Networking, JDBC & Multithreading ⚡  Regular updates with projects, code & tutorials!  🌟 Star, fork & start coding! 💻✨
