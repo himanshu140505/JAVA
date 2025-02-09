@@ -1,5 +1,5 @@
 /*
-2.write a java code to input your name through command line interface reverse it and display the output design a seperate class reverse to reverse your name and displaying your result
+write a java code to input your name through command line interface reverse it and display the output design a seperate class reverse to reverse your name and displaying your result
 */
 
 import java.util.Scanner;
