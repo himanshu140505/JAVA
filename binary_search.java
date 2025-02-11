@@ -1,5 +1,4 @@
 import java.io.*; 
-
 class binarysearch {
     
     void brsearch()throws IOException{
@@ -15,7 +14,7 @@ class binarysearch {
         }
         
         
-        System.out.print("Enter the element to be searched : ");
+        System.out.print("Enter the element to be searched in ascending order : ");
         int val = Integer.parseInt(br.readLine());
 
         if(size % 2 == 0){
