@@ -16,10 +16,9 @@ class c extends b{
         System.out.println("z = "+z);
     }
 }
-class use_of_super_keyword {
+class use_of_super_keyword{
     public static void main(String[] args) {
-        c();
-                
-            }
+        c ob = new c();              
+    }
 }
 

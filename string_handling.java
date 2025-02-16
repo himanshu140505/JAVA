@@ -1,15 +1,30 @@
-// write a program in java to input any string and try to match a pattern taken as second input
-
-
 import java.io.*;
 
-class strng{
-    void get_strings()throws IOException{
+class StringMatcher {
+    private int count = 0;
+    
+    void getStringsAndMatch() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String main_string = String.
-        br.close();
+        
+        System.out.print("Enter the main string: ");
+        String mainString = br.readLine();
+        
+        System.out.print("Enter the pattern to match: ");
+        String pattern = br.readLine();
+        
+        for (int i = 0; i <= mainString.length() - pattern.length(); i++) {
+            if (mainString.substring(i, i + pattern.length()).equals(pattern)) {
+                count++;
+            }
+        }
+        
+        System.out.println("Pattern found " + count + " times.");
     }
 }
-class string_handling {
-    
+
+public class string_handling {
+    public static void main(String[] args) throws IOException {
+        StringMatcher matcher = new StringMatcher();
+        matcher.getStringsAndMatch();
+    }
 }
