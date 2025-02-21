@@ -1,0 +1,24 @@
+in JAVA exception is a predefined class present in java.lang package. An exception is an abnormal condition that occurs during program execution and disrupt the normal flow of instruction. The unexpected situation that may occur during program executions are:-
+				1. Array Index crosses the range 
+				2. A number is divided by 0
+				3. Inability to find files
+				4. Problems in network connectivity
+KEYWORDS: try catch throw throws finally
+parent class of java for exception handling : throwable			
+
+In JAVA exception is handled by 5 keywords try, catch, throw, throws, and finally. The JAVA code that may produce an exception is placed inside a try block. The catch block is used to handle the exception. If some necessary code is to be executed after try block then it is placed inside finally block. By the help of throw keyword programmer generates the exception. When an exception is thrown out of a method throws keyword is used.
+				try{
+				   //code to run
+				}
+				catch (Exception e or throwable t or throw throwable){ 
+				   //what to do statement
+				}
+				finally{
+				   //what to do next
+				}
+
+Types of Exceptions:
+	Exceptions are basically of three types :
+	1. Checked Exceptions
+	2. Unchecked Exception
+	3. Chained Exception
