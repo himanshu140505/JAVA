@@ -1,3 +1,4 @@
+
 public class patternnew {
     public static void main(String[] args) {
         int rows = 6; // Number of rows in the pattern
