@@ -1,8 +1,8 @@
-interface A {
+interface  A{
     void show();
 }
 
-interface B extends A {
+interface B {
     void disp();
 }
 
@@ -15,7 +15,7 @@ class C implements A, B{
     }
 }
 class use_of_interface {
-    public static void main(String a[]){
+    public static void main(String args[]){
         A ob = new C();
         ob.show();
         ((B)ob).disp();

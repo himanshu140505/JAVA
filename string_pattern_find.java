@@ -22,7 +22,7 @@ class StringMatcher {
     }
 }
 
-public class string_handling {
+public class string_pattern_find {
     public static void main(String[] args) throws IOException {
         StringMatcher matcher = new StringMatcher();
         matcher.getStringsAndMatch();
